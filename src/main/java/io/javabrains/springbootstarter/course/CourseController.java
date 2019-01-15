@@ -43,4 +43,8 @@ public class CourseController {
     public void deleteTopic(@PathVariable String id) {
          courseService.deleteCourse(id);
     }
+
+    public String mohamed(){
+    	return "Mohamed";
+    }
 }
